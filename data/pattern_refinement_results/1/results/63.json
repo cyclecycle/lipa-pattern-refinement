@@ -1,0 +1,106 @@
+{
+  "pattern_id": 63,
+  "initial_fitness": {
+    "score": 0.5,
+    "n_true_pos": 3,
+    "n_true_neg": 0,
+    "n_false_pos": 13,
+    "pos_score": 1.0,
+    "neg_score": 0.0,
+    "true_pos": [
+      "{'ant': [administration], 'cons': [number]}",
+      "{'ant': [Treatment], 'cons': [decrease]}",
+      "{'ant': [Treatment], 'cons': [number]}"
+    ],
+    "true_neg": [],
+    "false_pos": [
+      "{'ant': [effect], 'cons': [CRT]}",
+      "{'ant': [readministration], 'cons': [min]}",
+      "{'ant': [AMED], 'cons': [min]}",
+      "{'ant': [Caffeine], 'cons': [activation]}",
+      "{'ant': [activation], 'cons': [supplementation]}",
+      "{'ant': [connectivity], 'cons': [supplementation]}",
+      "{'ant': [connectivity], 'cons': [placebo]}",
+      "{'ant': [connectivity], 'cons': [supplementation]}",
+      "{'ant': [dose], 'cons': [Day]}",
+      "{'ant': [version], 'cons': [definition]}",
+      "{'ant': [SLT], 'cons': [%]}",
+      "{'ant': [reasoning], 'cons': [caffeine]}",
+      "{'ant': [activation], 'cons': [step]}"
+    ],
+    "true_pos_sentence_ids": [
+      88,
+      147,
+      630
+    ],
+    "true_neg_sentence_ids": [],
+    "false_pos_sentence_ids": [
+      100,
+      113,
+      206,
+      342,
+      448,
+      449,
+      449,
+      450,
+      481,
+      532,
+      729,
+      860,
+      1098
+    ]
+  },
+  "new_fitness": {
+    "score": 0.9615384615384616,
+    "n_true_pos": 3,
+    "n_true_neg": 12,
+    "n_false_pos": 1,
+    "pos_score": 1.0,
+    "neg_score": 0.9230769230769231,
+    "true_pos": [
+      "{'ant': [administration], 'cons': [number]}",
+      "{'ant': [Treatment], 'cons': [decrease]}",
+      "{'ant': [Treatment], 'cons': [number]}"
+    ],
+    "true_neg": [
+      "{'ant': [effect], 'cons': [CRT]}",
+      "{'ant': [readministration], 'cons': [min]}",
+      "{'ant': [AMED], 'cons': [min]}",
+      "{'ant': [Caffeine], 'cons': [activation]}",
+      "{'ant': [activation], 'cons': [supplementation]}",
+      "{'ant': [connectivity], 'cons': [supplementation]}",
+      "{'ant': [connectivity], 'cons': [placebo]}",
+      "{'ant': [connectivity], 'cons': [supplementation]}",
+      "{'ant': [dose], 'cons': [Day]}",
+      "{'ant': [version], 'cons': [definition]}",
+      "{'ant': [SLT], 'cons': [%]}",
+      "{'ant': [reasoning], 'cons': [caffeine]}"
+    ],
+    "false_pos": [
+      "{'ant': [activation], 'cons': [step]}"
+    ],
+    "true_pos_sentence_ids": [
+      88,
+      147,
+      630
+    ],
+    "true_neg_sentence_ids": [
+      100,
+      113,
+      206,
+      342,
+      448,
+      449,
+      449,
+      450,
+      481,
+      532,
+      729,
+      860
+    ],
+    "false_pos_sentence_ids": [
+      1098
+    ]
+  },
+  "time_spent": 320.76
+}

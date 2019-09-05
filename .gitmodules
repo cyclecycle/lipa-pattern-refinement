@@ -1,0 +1,3 @@
+[submodule "db"]
+	path = db
+	url = https://github.com/cyclecycle/lipa-pattern-api-db-utils.git

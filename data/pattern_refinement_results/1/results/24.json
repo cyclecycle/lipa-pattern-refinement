@@ -1,0 +1,140 @@
+{
+  "pattern_id": 24,
+  "initial_fitness": {
+    "score": 0.5,
+    "n_true_pos": 14,
+    "n_true_neg": 0,
+    "n_false_pos": 15,
+    "pos_score": 1.0,
+    "neg_score": 0.0,
+    "true_pos": [
+      "{'ant': [L-theanine], 'cons': [reactivity]}",
+      "{'ant': [consumption], 'cons': [up-regulation]}",
+      "{'ant': [reduction], 'cons': [hyperpolarisation]}",
+      "{'ant': [blocker], 'cons': [current]}",
+      "{'ant': [Overweight], 'cons': [risk]}",
+      "{'ant': [CHO], 'cons': [speed]}",
+      "{'ant': [SRE], 'cons': [decline]}",
+      "{'ant': [SRE], 'cons': [elevation]}",
+      "{'ant': [coffee], 'cons': [alertness]}",
+      "{'ant': [Caffeine], 'cons': [performance]}",
+      "{'ant': [CAF], 'cons': [EMG]}",
+      "{'ant': [caffeine], 'cons': [learning]}",
+      "{'ant': [caffeine], 'cons': [latency]}",
+      "{'ant': [Sucrose], 'cons': [immunoreactivity]}"
+    ],
+    "true_neg": [],
+    "false_pos": [
+      "{'ant': [study], 'cons': [association]}",
+      "{'ant': [study], 'cons': [effect]}",
+      "{'ant': [mL/O2/kg], 'cons': [match]}",
+      "{'ant': [COGRTWrong], 'cons': [effect]}",
+      "{'ant': [interaction], 'cons': [placebo]}",
+      "{'ant': [blocker], 'cons': [current]}",
+      "{'ant': [antagonism], 'cons': [pattern]}",
+      "{'ant': [MR], 'cons': [morphometry]}",
+      "{'ant': [number], 'cons': [number]}",
+      "{'ant': [study], 'cons': [influence]}",
+      "{'ant': [Satisfaction], 'cons': [day]}",
+      "{'ant': [study], 'cons': [effect]}",
+      "{'ant': [test], 'cons': [performance]}",
+      "{'ant': [Conclusion], 'cons': [evidence]}",
+      "{'ant': [interaction], 'cons': [significance]}"
+    ],
+    "true_pos_sentence_ids": [
+      42,
+      132,
+      150,
+      153,
+      268,
+      280,
+      288,
+      289,
+      327,
+      342,
+      350,
+      360,
+      618,
+      642
+    ],
+    "true_neg_sentence_ids": [],
+    "false_pos_sentence_ids": [
+      56,
+      60,
+      95,
+      101,
+      102,
+      153,
+      208,
+      311,
+      339,
+      362,
+      414,
+      419,
+      467,
+      527,
+      683
+    ]
+  },
+  "new_fitness": {
+    "score": 0.6452380952380953,
+    "n_true_pos": 5,
+    "n_true_neg": 14,
+    "n_false_pos": 1,
+    "pos_score": 0.35714285714285715,
+    "neg_score": 0.9333333333333333,
+    "true_pos": [
+      "{'ant': [L-theanine], 'cons': [reactivity]}",
+      "{'ant': [Overweight], 'cons': [risk]}",
+      "{'ant': [CHO], 'cons': [speed]}",
+      "{'ant': [Caffeine], 'cons': [performance]}",
+      "{'ant': [CAF], 'cons': [EMG]}"
+    ],
+    "true_neg": [
+      "{'ant': [study], 'cons': [effect]}",
+      "{'ant': [mL/O2/kg], 'cons': [match]}",
+      "{'ant': [COGRTWrong], 'cons': [effect]}",
+      "{'ant': [interaction], 'cons': [placebo]}",
+      "{'ant': [blocker], 'cons': [current]}",
+      "{'ant': [antagonism], 'cons': [pattern]}",
+      "{'ant': [MR], 'cons': [morphometry]}",
+      "{'ant': [number], 'cons': [number]}",
+      "{'ant': [study], 'cons': [influence]}",
+      "{'ant': [Satisfaction], 'cons': [day]}",
+      "{'ant': [study], 'cons': [effect]}",
+      "{'ant': [test], 'cons': [performance]}",
+      "{'ant': [Conclusion], 'cons': [evidence]}",
+      "{'ant': [interaction], 'cons': [significance]}"
+    ],
+    "false_pos": [
+      "{'ant': [study], 'cons': [association]}"
+    ],
+    "true_pos_sentence_ids": [
+      42,
+      268,
+      280,
+      342,
+      350
+    ],
+    "true_neg_sentence_ids": [
+      60,
+      95,
+      101,
+      102,
+      153,
+      208,
+      311,
+      339,
+      362,
+      414,
+      419,
+      467,
+      527,
+      683
+    ],
+    "false_pos_sentence_ids": [
+      56
+    ]
+  },
+  "time_spent": 606.0
+}

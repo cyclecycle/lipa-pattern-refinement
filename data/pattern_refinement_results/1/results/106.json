@@ -1,0 +1,104 @@
+{
+  "pattern_id": 106,
+  "initial_fitness": {
+    "score": 0.5,
+    "n_true_pos": 5,
+    "n_true_neg": 0,
+    "n_false_pos": 11,
+    "pos_score": 1.0,
+    "neg_score": 0.0,
+    "true_pos": [
+      "{'ant': [influx], 'cons': [entry]}",
+      "{'ant': [consumption], 'cons': [rate]}",
+      "{'ant': [supplementation], 'cons': [decline]}",
+      "{'ant': [Ethanol], 'cons': [neurodegeneration]}",
+      "{'ant': [flavonoid], 'cons': [formation]}"
+    ],
+    "true_neg": [],
+    "false_pos": [
+      "{'ant': [study], 'cons': [power]}",
+      "{'ant': [review], 'cons': [evidence]}",
+      "{'ant': [ultrasound], 'cons': [predictability]}",
+      "{'ant': [role], 'cons': [investigation]}",
+      "{'ant': [review], 'cons': [impact]}",
+      "{'ant': [consensus], 'cons': [idea]}",
+      "{'ant': [model], 'cons': [deletion]}",
+      "{'ant': [review], 'cons': [number]}",
+      "{'ant': [function], 'cons': [role]}",
+      "{'ant': [doping], 'cons': [use]}",
+      "{'ant': [symposium], 'cons': [environment]}"
+    ],
+    "true_pos_sentence_ids": [
+      144,
+      207,
+      283,
+      383,
+      698
+    ],
+    "true_neg_sentence_ids": [],
+    "false_pos_sentence_ids": [
+      67,
+      180,
+      293,
+      460,
+      650,
+      659,
+      673,
+      740,
+      792,
+      814,
+      834
+    ]
+  },
+  "new_fitness": {
+    "score": 0.7181818181818183,
+    "n_true_pos": 4,
+    "n_true_neg": 7,
+    "n_false_pos": 4,
+    "pos_score": 0.8,
+    "neg_score": 0.6363636363636364,
+    "true_pos": [
+      "{'ant': [influx], 'cons': [entry]}",
+      "{'ant': [consumption], 'cons': [rate]}",
+      "{'ant': [Ethanol], 'cons': [neurodegeneration]}",
+      "{'ant': [flavonoid], 'cons': [formation]}"
+    ],
+    "true_neg": [
+      "{'ant': [review], 'cons': [evidence]}",
+      "{'ant': [ultrasound], 'cons': [predictability]}",
+      "{'ant': [review], 'cons': [impact]}",
+      "{'ant': [model], 'cons': [deletion]}",
+      "{'ant': [review], 'cons': [number]}",
+      "{'ant': [function], 'cons': [role]}",
+      "{'ant': [doping], 'cons': [use]}"
+    ],
+    "false_pos": [
+      "{'ant': [study], 'cons': [power]}",
+      "{'ant': [role], 'cons': [investigation]}",
+      "{'ant': [consensus], 'cons': [idea]}",
+      "{'ant': [symposium], 'cons': [environment]}"
+    ],
+    "true_pos_sentence_ids": [
+      144,
+      207,
+      383,
+      698
+    ],
+    "true_neg_sentence_ids": [
+      180,
+      293,
+      650,
+      673,
+      740,
+      792,
+      814
+    ],
+    "false_pos_sentence_ids": [
+      67,
+      460,
+      659,
+      834
+    ]
+  },
+  "time_spent": 140.62
+}
