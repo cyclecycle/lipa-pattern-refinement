@@ -1,0 +1,116 @@
+{
+  "pattern_id": 55,
+  "initial_fitness": {
+    "score": 0.5,
+    "n_true_pos": 8,
+    "n_true_neg": 0,
+    "n_false_pos": 9,
+    "n_false_neg": 0,
+    "pos_score": 1.0,
+    "neg_score": 0.0,
+    "true_pos": [
+      "{'ant': [acid], 'cons': [expression]}",
+      "{'ant': [nutrition], 'cons': [production]}",
+      "{'ant': [intake], 'cons': [recovery]}",
+      "{'ant': [supplementation], 'cons': [recovery]}",
+      "{'ant': [MIES], 'cons': [activation]}",
+      "{'ant': [SLT], 'cons': [cognition]}",
+      "{'ant': [dehydration], 'cons': [performance]}",
+      "{'ant': [caffeine], 'cons': [speed]}"
+    ],
+    "true_neg": [],
+    "false_pos": [
+      "{'ant': [L-theanine], 'cons': [placebo]}",
+      "{'ant': [caffeine], 'cons': [ability]}",
+      "{'ant': [dysfunction], 'cons': [role]}",
+      "{'ant': [ayahuasca], 'cons': [potential]}",
+      "{'ant': [PCA], 'cons': [death]}",
+      "{'ant': [EGCG], 'cons': [role]}",
+      "{'ant': [supplement], 'cons': [activation]}",
+      "{'ant': [knowledge], 'cons': [light]}",
+      "{'ant': [diet], 'cons': [effect]}"
+    ],
+    "false_neg": [],
+    "true_pos_sentence_ids": [
+      86,
+      165,
+      608,
+      608,
+      687,
+      718,
+      796,
+      824
+    ],
+    "true_neg_sentence_ids": [],
+    "false_pos_sentence_ids": [
+      215,
+      344,
+      372,
+      407,
+      593,
+      678,
+      680,
+      830,
+      1003
+    ],
+    "false_neg_sentence_ids": []
+  },
+  "new_fitness": {
+    "score": 0.75,
+    "n_true_pos": 4,
+    "n_true_neg": 9,
+    "n_false_pos": 0,
+    "n_false_neg": 4,
+    "pos_score": 0.5,
+    "neg_score": 1.0,
+    "true_pos": [
+      "{'ant': [acid], 'cons': [expression]}",
+      "{'ant': [MIES], 'cons': [activation]}",
+      "{'ant': [SLT], 'cons': [cognition]}",
+      "{'ant': [caffeine], 'cons': [speed]}"
+    ],
+    "true_neg": [
+      "{'ant': [L-theanine], 'cons': [placebo]}",
+      "{'ant': [caffeine], 'cons': [ability]}",
+      "{'ant': [dysfunction], 'cons': [role]}",
+      "{'ant': [ayahuasca], 'cons': [potential]}",
+      "{'ant': [PCA], 'cons': [death]}",
+      "{'ant': [EGCG], 'cons': [role]}",
+      "{'ant': [supplement], 'cons': [activation]}",
+      "{'ant': [knowledge], 'cons': [light]}",
+      "{'ant': [diet], 'cons': [effect]}"
+    ],
+    "false_pos": [],
+    "false_neg": [
+      "{'ant': [nutrition], 'cons': [production]}",
+      "{'ant': [intake], 'cons': [recovery]}",
+      "{'ant': [supplementation], 'cons': [recovery]}",
+      "{'ant': [dehydration], 'cons': [performance]}"
+    ],
+    "true_pos_sentence_ids": [
+      86,
+      687,
+      718,
+      824
+    ],
+    "true_neg_sentence_ids": [
+      215,
+      344,
+      372,
+      407,
+      593,
+      678,
+      680,
+      830,
+      1003
+    ],
+    "false_pos_sentence_ids": [],
+    "false_neg_sentence_ids": [
+      165,
+      608,
+      608,
+      796
+    ]
+  },
+  "time_spent": 184.1
+}

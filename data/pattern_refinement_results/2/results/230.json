@@ -1,0 +1,86 @@
+{
+  "pattern_id": 230,
+  "initial_fitness": {
+    "score": 0.5,
+    "n_true_pos": 4,
+    "n_true_neg": 0,
+    "n_false_pos": 6,
+    "n_false_neg": 0,
+    "pos_score": 1.0,
+    "neg_score": 0.0,
+    "true_pos": [
+      "{'ant': [CAF], 'cons': [deoxygenation]}",
+      "{'ant': [plasticity], 'cons': [regulation]}",
+      "{'ant': [supplementation], 'cons': [CBF]}",
+      "{'ant': [Mitii], 'cons': [EF]}"
+    ],
+    "true_neg": [],
+    "false_pos": [
+      "{'ant': [sampling], 'cons': [sample]}",
+      "{'ant': [model], 'cons': [association]}",
+      "{'ant': [regression], 'cons': [association]}",
+      "{'ant': [model], 'cons': [prevalence]}",
+      "{'ant': [analysis], 'cons': [relationship]}",
+      "{'ant': [study], 'cons': [effect]}"
+    ],
+    "false_neg": [],
+    "true_pos_sentence_ids": [
+      343,
+      165,
+      649,
+      959
+    ],
+    "true_neg_sentence_ids": [],
+    "false_pos_sentence_ids": [
+      385,
+      389,
+      490,
+      531,
+      992,
+      1005
+    ],
+    "false_neg_sentence_ids": []
+  },
+  "new_fitness": {
+    "score": 1.0,
+    "n_true_pos": 4,
+    "n_true_neg": 6,
+    "n_false_pos": 0,
+    "n_false_neg": 0,
+    "pos_score": 1.0,
+    "neg_score": 1.0,
+    "true_pos": [
+      "{'ant': [CAF], 'cons': [deoxygenation]}",
+      "{'ant': [plasticity], 'cons': [regulation]}",
+      "{'ant': [supplementation], 'cons': [CBF]}",
+      "{'ant': [Mitii], 'cons': [EF]}"
+    ],
+    "true_neg": [
+      "{'ant': [sampling], 'cons': [sample]}",
+      "{'ant': [model], 'cons': [association]}",
+      "{'ant': [regression], 'cons': [association]}",
+      "{'ant': [model], 'cons': [prevalence]}",
+      "{'ant': [analysis], 'cons': [relationship]}",
+      "{'ant': [study], 'cons': [effect]}"
+    ],
+    "false_pos": [],
+    "false_neg": [],
+    "true_pos_sentence_ids": [
+      343,
+      165,
+      649,
+      959
+    ],
+    "true_neg_sentence_ids": [
+      385,
+      389,
+      490,
+      531,
+      992,
+      1005
+    ],
+    "false_pos_sentence_ids": [],
+    "false_neg_sentence_ids": []
+  },
+  "time_spent": 39.74
+}

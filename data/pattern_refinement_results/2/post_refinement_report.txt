@@ -1,0 +1,70 @@
+N patterns refined: 34
+
+Pre-refinement:
+
+Total N true pos: 109
+Total N false pos: 167
+Total N true neg: 0
+Total N false neg: 0
+Precision: 0.39492753623188404
+Recall: 1.0
+Average fitness: 0.5
+
+Post-refinement:
+
+Total N true pos: 80
+Total N true pos lost: 29
+Total N false pos: 8
+Total N true neg: 159
+Total N false neg: 29
+Precision: 0.9090909090909091
+Recall: 0.7339449541284404
+Average fitness: 0.9055837544808133
+
+Lowest fitness result:
+
+{'initial_fitness': {'false_neg': [],
+                     'false_neg_sentence_ids': [],
+                     'false_pos': ["{'ant': [study], 'cons': [power]}",
+                                   "{'ant': [role], 'cons': [investigation]}"],
+                     'false_pos_sentence_ids': [67, 458],
+                     'n_false_neg': 0,
+                     'n_false_pos': 2,
+                     'n_true_neg': 0,
+                     'n_true_pos': 6,
+                     'neg_score': 0.0,
+                     'pos_score': 1.0,
+                     'score': 0.5,
+                     'true_neg': [],
+                     'true_neg_sentence_ids': [],
+                     'true_pos': ["{'ant': [influx], 'cons': [entry]}",
+                                  "{'ant': [consumption], 'cons': [rate]}",
+                                  "{'ant': [Ethanol], 'cons': "
+                                  '[neurodegeneration]}',
+                                  "{'ant': [study], 'cons': [amount]}",
+                                  "{'ant': [consensus], 'cons': [idea]}",
+                                  "{'ant': [flavonoid], 'cons': [formation]}"],
+                     'true_pos_sentence_ids': [143, 206, 381, 474, 656, 695]},
+ 'new_fitness': {'false_neg': ["{'ant': [consumption], 'cons': [rate]}",
+                               "{'ant': [Ethanol], 'cons': "
+                               '[neurodegeneration]}',
+                               "{'ant': [study], 'cons': [amount]}",
+                               "{'ant': [consensus], 'cons': [idea]}",
+                               "{'ant': [flavonoid], 'cons': [formation]}"],
+                 'false_neg_sentence_ids': [206, 381, 474, 656, 695],
+                 'false_pos': [],
+                 'false_pos_sentence_ids': [],
+                 'n_false_neg': 5,
+                 'n_false_pos': 0,
+                 'n_true_neg': 2,
+                 'n_true_pos': 1,
+                 'neg_score': 1.0,
+                 'pos_score': 0.16666666666666666,
+                 'score': 0.5833333333333334,
+                 'true_neg': ["{'ant': [study], 'cons': [power]}",
+                              "{'ant': [role], 'cons': [investigation]}"],
+                 'true_neg_sentence_ids': [67, 458],
+                 'true_pos': ["{'ant': [influx], 'cons': [entry]}"],
+                 'true_pos_sentence_ids': [143]},
+ 'pattern_id': 106,
+ 'time_spent': 86.31}

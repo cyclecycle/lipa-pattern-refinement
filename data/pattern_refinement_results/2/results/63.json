@@ -1,0 +1,64 @@
+{
+  "pattern_id": 63,
+  "initial_fitness": {
+    "score": 0.5,
+    "n_true_pos": 3,
+    "n_true_neg": 0,
+    "n_false_pos": 1,
+    "n_false_neg": 0,
+    "pos_score": 1.0,
+    "neg_score": 0.0,
+    "true_pos": [
+      "{'ant': [administration], 'cons': [number]}",
+      "{'ant': [Treatment], 'cons': [decrease]}",
+      "{'ant': [Treatment], 'cons': [number]}"
+    ],
+    "true_neg": [],
+    "false_pos": [
+      "{'ant': [activation], 'cons': [step]}"
+    ],
+    "false_neg": [],
+    "true_pos_sentence_ids": [
+      88,
+      146,
+      627
+    ],
+    "true_neg_sentence_ids": [],
+    "false_pos_sentence_ids": [
+      1093
+    ],
+    "false_neg_sentence_ids": []
+  },
+  "new_fitness": {
+    "score": 0.8333333333333333,
+    "n_true_pos": 2,
+    "n_true_neg": 1,
+    "n_false_pos": 0,
+    "n_false_neg": 1,
+    "pos_score": 0.6666666666666666,
+    "neg_score": 1.0,
+    "true_pos": [
+      "{'ant': [administration], 'cons': [number]}",
+      "{'ant': [Treatment], 'cons': [number]}"
+    ],
+    "true_neg": [
+      "{'ant': [activation], 'cons': [step]}"
+    ],
+    "false_pos": [],
+    "false_neg": [
+      "{'ant': [Treatment], 'cons': [decrease]}"
+    ],
+    "true_pos_sentence_ids": [
+      88,
+      627
+    ],
+    "true_neg_sentence_ids": [
+      1093
+    ],
+    "false_pos_sentence_ids": [],
+    "false_neg_sentence_ids": [
+      146
+    ]
+  },
+  "time_spent": 19.69
+}

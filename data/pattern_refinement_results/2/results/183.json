@@ -1,0 +1,80 @@
+{
+  "pattern_id": 183,
+  "initial_fitness": {
+    "score": 0.5,
+    "n_true_pos": 7,
+    "n_true_neg": 0,
+    "n_false_pos": 1,
+    "n_false_neg": 0,
+    "pos_score": 1.0,
+    "neg_score": 0.0,
+    "true_pos": [
+      "{'down': [prevent], 'head': [decline]}",
+      "{'down': [reduce], 'head': [risk]}",
+      "{'down': [reduce], 'head': [risk]}",
+      "{'down': [reduce], 'head': [decline]}",
+      "{'down': [prevent], 'head': [reuptake]}",
+      "{'down': [prevent], 'head': [harm]}",
+      "{'down': [counteract], 'head': [toxicity]}"
+    ],
+    "true_neg": [],
+    "false_pos": [
+      "{'down': [reduce], 'head': [disease]}"
+    ],
+    "false_neg": [],
+    "true_pos_sentence_ids": [
+      282,
+      57,
+      221,
+      234,
+      473,
+      608,
+      622
+    ],
+    "true_neg_sentence_ids": [],
+    "false_pos_sentence_ids": [
+      57
+    ],
+    "false_neg_sentence_ids": []
+  },
+  "new_fitness": {
+    "score": 0.9285714285714286,
+    "n_true_pos": 6,
+    "n_true_neg": 1,
+    "n_false_pos": 0,
+    "n_false_neg": 1,
+    "pos_score": 0.8571428571428571,
+    "neg_score": 1.0,
+    "true_pos": [
+      "{'down': [prevent], 'head': [decline]}",
+      "{'down': [reduce], 'head': [risk]}",
+      "{'down': [reduce], 'head': [risk]}",
+      "{'down': [reduce], 'head': [decline]}",
+      "{'down': [prevent], 'head': [harm]}",
+      "{'down': [counteract], 'head': [toxicity]}"
+    ],
+    "true_neg": [
+      "{'down': [reduce], 'head': [disease]}"
+    ],
+    "false_pos": [],
+    "false_neg": [
+      "{'down': [prevent], 'head': [reuptake]}"
+    ],
+    "true_pos_sentence_ids": [
+      282,
+      57,
+      221,
+      234,
+      608,
+      622
+    ],
+    "true_neg_sentence_ids": [
+      57
+    ],
+    "false_pos_sentence_ids": [],
+    "false_neg_sentence_ids": [
+      473
+    ]
+  },
+  "time_spent": 0.55
+}

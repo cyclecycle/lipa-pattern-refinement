@@ -1,0 +1,124 @@
+{
+  "pattern_id": 298,
+  "initial_fitness": {
+    "score": 0.5,
+    "n_true_pos": 2,
+    "n_true_neg": 0,
+    "n_false_pos": 17,
+    "n_false_neg": 0,
+    "pos_score": 1.0,
+    "neg_score": 0.0,
+    "true_pos": [
+      "{'head': [connectivity], 'up': [increased]}",
+      "{'head': [Satisfaction], 'up': [increased]}"
+    ],
+    "true_neg": [],
+    "false_pos": [
+      "{'head': [age], 'up': [resulted]}",
+      "{'head': [DDS], 'up': [resulted]}",
+      "{'head': [study], 'up': [supported]}",
+      "{'head': [administration], 'up': [led]}",
+      "{'head': [consumption], 'up': [caused]}",
+      "{'head': [ED], 'up': [improved]}",
+      "{'head': [AMED], 'up': [produced]}",
+      "{'head': [CHO], 'up': [enhanced]}",
+      "{'head': [coffee], 'up': [produced]}",
+      "{'head': [coffee], 'up': [increased]}",
+      "{'head': [Caffeine], 'up': [improved]}",
+      "{'head': [CAF], 'up': [increased]}",
+      "{'head': [DSST], 'up': [increased]}",
+      "{'head': [biloba], 'up': [led]}",
+      "{'head': [caffeine], 'up': [increased]}",
+      "{'head': [administration], 'up': [induced]}",
+      "{'head': [combination], 'up': [resulted]}"
+    ],
+    "false_neg": [],
+    "true_pos_sentence_ids": [
+      447,
+      412
+    ],
+    "true_neg_sentence_ids": [],
+    "false_pos_sentence_ids": [
+      16,
+      16,
+      54,
+      88,
+      131,
+      204,
+      205,
+      278,
+      323,
+      325,
+      340,
+      348,
+      445,
+      480,
+      616,
+      722,
+      744
+    ],
+    "false_neg_sentence_ids": []
+  },
+  "new_fitness": {
+    "score": 0.9705882352941176,
+    "n_true_pos": 2,
+    "n_true_neg": 16,
+    "n_false_pos": 1,
+    "n_false_neg": 0,
+    "pos_score": 1.0,
+    "neg_score": 0.9411764705882353,
+    "true_pos": [
+      "{'head': [connectivity], 'up': [increased]}",
+      "{'head': [Satisfaction], 'up': [increased]}"
+    ],
+    "true_neg": [
+      "{'head': [age], 'up': [resulted]}",
+      "{'head': [DDS], 'up': [resulted]}",
+      "{'head': [study], 'up': [supported]}",
+      "{'head': [administration], 'up': [led]}",
+      "{'head': [consumption], 'up': [caused]}",
+      "{'head': [ED], 'up': [improved]}",
+      "{'head': [AMED], 'up': [produced]}",
+      "{'head': [coffee], 'up': [produced]}",
+      "{'head': [coffee], 'up': [increased]}",
+      "{'head': [Caffeine], 'up': [improved]}",
+      "{'head': [CAF], 'up': [increased]}",
+      "{'head': [DSST], 'up': [increased]}",
+      "{'head': [biloba], 'up': [led]}",
+      "{'head': [caffeine], 'up': [increased]}",
+      "{'head': [administration], 'up': [induced]}",
+      "{'head': [combination], 'up': [resulted]}"
+    ],
+    "false_pos": [
+      "{'head': [CHO], 'up': [enhanced]}"
+    ],
+    "false_neg": [],
+    "true_pos_sentence_ids": [
+      447,
+      412
+    ],
+    "true_neg_sentence_ids": [
+      16,
+      16,
+      54,
+      88,
+      131,
+      204,
+      205,
+      323,
+      325,
+      340,
+      348,
+      445,
+      480,
+      616,
+      722,
+      744
+    ],
+    "false_pos_sentence_ids": [
+      278
+    ],
+    "false_neg_sentence_ids": []
+  },
+  "time_spent": 0.97
+}

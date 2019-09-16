@@ -1,0 +1,78 @@
+{
+  "pattern_id": 96,
+  "initial_fitness": {
+    "score": 0.5,
+    "n_true_pos": 6,
+    "n_true_neg": 0,
+    "n_false_pos": 2,
+    "n_false_neg": 0,
+    "pos_score": 1.0,
+    "neg_score": 0.0,
+    "true_pos": [
+      "{'up': [up-regulation], 'head': [Grin2a]}",
+      "{'up': [elevation], 'head': [level]}",
+      "{'up': [improvement], 'head': [sensitivity]}",
+      "{'up': [increase], 'head': [entropy]}",
+      "{'up': [improvement], 'head': [time]}",
+      "{'up': [activation], 'head': [system]}"
+    ],
+    "true_neg": [],
+    "false_pos": [
+      "{'up': [contribution], 'head': [ATC]}",
+      "{'up': [activation], 'head': [step]}"
+    ],
+    "false_neg": [],
+    "true_pos_sentence_ids": [
+      131,
+      287,
+      681,
+      705,
+      1016,
+      1092
+    ],
+    "true_neg_sentence_ids": [],
+    "false_pos_sentence_ids": [
+      1065,
+      1093
+    ],
+    "false_neg_sentence_ids": []
+  },
+  "new_fitness": {
+    "score": 1.0,
+    "n_true_pos": 6,
+    "n_true_neg": 2,
+    "n_false_pos": 0,
+    "n_false_neg": 0,
+    "pos_score": 1.0,
+    "neg_score": 1.0,
+    "true_pos": [
+      "{'up': [up-regulation], 'head': [Grin2a]}",
+      "{'up': [elevation], 'head': [level]}",
+      "{'up': [improvement], 'head': [sensitivity]}",
+      "{'up': [increase], 'head': [entropy]}",
+      "{'up': [improvement], 'head': [time]}",
+      "{'up': [activation], 'head': [system]}"
+    ],
+    "true_neg": [
+      "{'up': [contribution], 'head': [ATC]}",
+      "{'up': [activation], 'head': [step]}"
+    ],
+    "false_pos": [],
+    "false_neg": [],
+    "true_pos_sentence_ids": [
+      131,
+      287,
+      681,
+      705,
+      1016,
+      1092
+    ],
+    "true_neg_sentence_ids": [
+      1065,
+      1093
+    ],
+    "false_pos_sentence_ids": [],
+    "false_neg_sentence_ids": []
+  },
+  "time_spent": 0.49
+}

@@ -1,0 +1,82 @@
+{
+  "pattern_id": 177,
+  "initial_fitness": {
+    "score": 0.5,
+    "n_true_pos": 3,
+    "n_true_neg": 0,
+    "n_false_pos": 5,
+    "n_false_neg": 0,
+    "pos_score": 1.0,
+    "neg_score": 0.0,
+    "true_pos": [
+      "{'up': [beneficial, effect], 'head': [processing]}",
+      "{'up': [positive, effect], 'head': [performance]}",
+      "{'up': [beneficial, effect], 'head': [function]}"
+    ],
+    "true_neg": [],
+    "false_pos": [
+      "{'up': [positive, correlation], 'head': [ASL]}",
+      "{'up': [positive, association], 'head': [nutrition]}",
+      "{'up': [positive, relationship], 'head': [nutrition]}",
+      "{'up': [protective, effect], 'head': [decline]}",
+      "{'up': [comprehensive, review], 'head': [assessment]}"
+    ],
+    "false_neg": [],
+    "true_pos_sentence_ids": [
+      279,
+      791,
+      998
+    ],
+    "true_neg_sentence_ids": [],
+    "false_pos_sentence_ids": [
+      314,
+      968,
+      969,
+      985,
+      1036
+    ],
+    "false_neg_sentence_ids": []
+  },
+  "new_fitness": {
+    "score": 0.7333333333333334,
+    "n_true_pos": 2,
+    "n_true_neg": 4,
+    "n_false_pos": 1,
+    "n_false_neg": 1,
+    "pos_score": 0.6666666666666666,
+    "neg_score": 0.8,
+    "true_pos": [
+      "{'up': [beneficial, effect], 'head': [processing]}",
+      "{'up': [positive, effect], 'head': [performance]}"
+    ],
+    "true_neg": [
+      "{'up': [positive, correlation], 'head': [ASL]}",
+      "{'up': [positive, association], 'head': [nutrition]}",
+      "{'up': [positive, relationship], 'head': [nutrition]}",
+      "{'up': [protective, effect], 'head': [decline]}"
+    ],
+    "false_pos": [
+      "{'up': [comprehensive, review], 'head': [assessment]}"
+    ],
+    "false_neg": [
+      "{'up': [beneficial, effect], 'head': [function]}"
+    ],
+    "true_pos_sentence_ids": [
+      279,
+      791
+    ],
+    "true_neg_sentence_ids": [
+      314,
+      968,
+      969,
+      985
+    ],
+    "false_pos_sentence_ids": [
+      1036
+    ],
+    "false_neg_sentence_ids": [
+      998
+    ]
+  },
+  "time_spent": 0.38
+}

@@ -1,0 +1,68 @@
+{
+  "pattern_id": 171,
+  "initial_fitness": {
+    "score": 0.5,
+    "n_true_pos": 4,
+    "n_true_neg": 0,
+    "n_false_pos": 1,
+    "n_false_neg": 0,
+    "pos_score": 1.0,
+    "neg_score": 0.0,
+    "true_pos": [
+      "{'ant': [CAF], 'cons': [speed]}",
+      "{'ant': [caffeine], 'cons': [reactivity]}",
+      "{'ant': [combination], 'cons': [reactivity]}",
+      "{'ant': [placebo], 'cons': [performance]}"
+    ],
+    "true_neg": [],
+    "false_pos": [
+      "{'ant': [study], 'cons': [association]}"
+    ],
+    "false_neg": [],
+    "true_pos_sentence_ids": [
+      278,
+      42,
+      42,
+      340
+    ],
+    "true_neg_sentence_ids": [],
+    "false_pos_sentence_ids": [
+      56
+    ],
+    "false_neg_sentence_ids": []
+  },
+  "new_fitness": {
+    "score": 0.875,
+    "n_true_pos": 3,
+    "n_true_neg": 1,
+    "n_false_pos": 0,
+    "n_false_neg": 1,
+    "pos_score": 0.75,
+    "neg_score": 1.0,
+    "true_pos": [
+      "{'ant': [CAF], 'cons': [speed]}",
+      "{'ant': [caffeine], 'cons': [reactivity]}",
+      "{'ant': [combination], 'cons': [reactivity]}"
+    ],
+    "true_neg": [
+      "{'ant': [study], 'cons': [association]}"
+    ],
+    "false_pos": [],
+    "false_neg": [
+      "{'ant': [placebo], 'cons': [performance]}"
+    ],
+    "true_pos_sentence_ids": [
+      278,
+      42,
+      42
+    ],
+    "true_neg_sentence_ids": [
+      56
+    ],
+    "false_pos_sentence_ids": [],
+    "false_neg_sentence_ids": [
+      340
+    ]
+  },
+  "time_spent": 50.4
+}

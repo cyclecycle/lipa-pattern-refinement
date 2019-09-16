@@ -1,0 +1,98 @@
+{
+  "pattern_id": 162,
+  "initial_fitness": {
+    "score": 0.5,
+    "n_true_pos": 5,
+    "n_true_neg": 0,
+    "n_false_pos": 8,
+    "n_false_neg": 0,
+    "pos_score": 1.0,
+    "neg_score": 0.0,
+    "true_pos": [
+      "{'assoc_left': [risk], 'assoc_right': [grades]}",
+      "{'assoc_left': [consumption], 'assoc_right': [risks]}",
+      "{'assoc_left': [adherence], 'assoc_right': [outcomes]}",
+      "{'assoc_left': [supplementation], 'assoc_right': [changes]}",
+      "{'assoc_left': [Epigallocatechin-3-gallate], 'assoc_right': [benefits]}"
+    ],
+    "true_neg": [],
+    "false_pos": [
+      "{'assoc_left': [SD], 'assoc_right': [hours]}",
+      "{'assoc_left': [current], 'assoc_right': [blockers]}",
+      "{'assoc_left': [concentration], 'assoc_right': [blockers]}",
+      "{'assoc_left': [expectancy], 'assoc_right': [designs]}",
+      "{'assoc_left': [Shooting], 'assoc_right': [phases]}",
+      "{'assoc_left': [RPE], 'assoc_right': [intervals]}",
+      "{'assoc_left': [sampling], 'assoc_right': [provinces]}",
+      "{'assoc_left': [Epigallocatechin-3-gallate], 'assoc_right': [mechanisms]}"
+    ],
+    "false_neg": [],
+    "true_pos_sentence_ids": [
+      265,
+      190,
+      229,
+      449,
+      671
+    ],
+    "true_neg_sentence_ids": [],
+    "false_pos_sentence_ids": [
+      121,
+      150,
+      150,
+      251,
+      274,
+      276,
+      385,
+      671
+    ],
+    "false_neg_sentence_ids": []
+  },
+  "new_fitness": {
+    "score": 1.0,
+    "n_true_pos": 5,
+    "n_true_neg": 8,
+    "n_false_pos": 0,
+    "n_false_neg": 0,
+    "pos_score": 1.0,
+    "neg_score": 1.0,
+    "true_pos": [
+      "{'assoc_left': [risk], 'assoc_right': [grades]}",
+      "{'assoc_left': [consumption], 'assoc_right': [risks]}",
+      "{'assoc_left': [adherence], 'assoc_right': [outcomes]}",
+      "{'assoc_left': [supplementation], 'assoc_right': [changes]}",
+      "{'assoc_left': [Epigallocatechin-3-gallate], 'assoc_right': [benefits]}"
+    ],
+    "true_neg": [
+      "{'assoc_left': [SD], 'assoc_right': [hours]}",
+      "{'assoc_left': [current], 'assoc_right': [blockers]}",
+      "{'assoc_left': [concentration], 'assoc_right': [blockers]}",
+      "{'assoc_left': [expectancy], 'assoc_right': [designs]}",
+      "{'assoc_left': [Shooting], 'assoc_right': [phases]}",
+      "{'assoc_left': [RPE], 'assoc_right': [intervals]}",
+      "{'assoc_left': [sampling], 'assoc_right': [provinces]}",
+      "{'assoc_left': [Epigallocatechin-3-gallate], 'assoc_right': [mechanisms]}"
+    ],
+    "false_pos": [],
+    "false_neg": [],
+    "true_pos_sentence_ids": [
+      265,
+      190,
+      229,
+      449,
+      671
+    ],
+    "true_neg_sentence_ids": [
+      121,
+      150,
+      150,
+      251,
+      274,
+      276,
+      385,
+      671
+    ],
+    "false_pos_sentence_ids": [],
+    "false_neg_sentence_ids": []
+  },
+  "time_spent": 20.57
+}

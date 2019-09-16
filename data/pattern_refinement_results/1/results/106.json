@@ -5,6 +5,7 @@
     "n_true_pos": 5,
     "n_true_neg": 0,
     "n_false_pos": 11,
+    "n_false_neg": 0,
     "pos_score": 1.0,
     "neg_score": 0.0,
     "true_pos": [
@@ -28,6 +29,7 @@
       "{'ant': [doping], 'cons': [use]}",
       "{'ant': [symposium], 'cons': [environment]}"
     ],
+    "false_neg": [],
     "true_pos_sentence_ids": [
       144,
       207,
@@ -48,13 +50,15 @@
       792,
       814,
       834
-    ]
+    ],
+    "false_neg_sentence_ids": []
   },
   "new_fitness": {
     "score": 0.7181818181818183,
     "n_true_pos": 4,
     "n_true_neg": 7,
     "n_false_pos": 4,
+    "n_false_neg": 1,
     "pos_score": 0.8,
     "neg_score": 0.6363636363636364,
     "true_pos": [
@@ -78,6 +82,9 @@
       "{'ant': [consensus], 'cons': [idea]}",
       "{'ant': [symposium], 'cons': [environment]}"
     ],
+    "false_neg": [
+      "{'ant': [supplementation], 'cons': [decline]}"
+    ],
     "true_pos_sentence_ids": [
       144,
       207,
@@ -98,7 +105,10 @@
       460,
       659,
       834
+    ],
+    "false_neg_sentence_ids": [
+      283
     ]
   },
-  "time_spent": 140.62
+  "time_spent": 162.53
 }

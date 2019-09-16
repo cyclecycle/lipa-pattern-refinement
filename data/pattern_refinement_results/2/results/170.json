@@ -1,0 +1,134 @@
+{
+  "pattern_id": 170,
+  "initial_fitness": {
+    "score": 0.5,
+    "n_true_pos": 10,
+    "n_true_neg": 0,
+    "n_false_pos": 11,
+    "n_false_neg": 0,
+    "pos_score": 1.0,
+    "neg_score": 0.0,
+    "true_pos": [
+      "{'ant': [CHO], 'cons': [speed]}",
+      "{'ant': [consumption], 'cons': [up-regulation]}",
+      "{'ant': [reduction], 'cons': [hyperpolarisation]}",
+      "{'ant': [SRE], 'cons': [decline]}",
+      "{'ant': [SRE], 'cons': [elevation]}",
+      "{'ant': [coffee], 'cons': [alertness]}",
+      "{'ant': [Caffeine], 'cons': [performance]}",
+      "{'ant': [CAF], 'cons': [EMG]}",
+      "{'ant': [caffeine], 'cons': [learning]}",
+      "{'ant': [caffeine], 'cons': [latency]}"
+    ],
+    "true_neg": [],
+    "false_pos": [
+      "{'ant': [study], 'cons': [association]}",
+      "{'ant': [study], 'cons': [effect]}",
+      "{'ant': [COGRTWrong], 'cons': [effect]}",
+      "{'ant': [interaction], 'cons': [placebo]}",
+      "{'ant': [antagonism], 'cons': [pattern]}",
+      "{'ant': [Overweight], 'cons': [risk]}",
+      "{'ant': [MR], 'cons': [morphometry]}",
+      "{'ant': [number], 'cons': [number]}",
+      "{'ant': [study], 'cons': [influence]}",
+      "{'ant': [Satisfaction], 'cons': [day]}",
+      "{'ant': [study], 'cons': [effect]}"
+    ],
+    "false_neg": [],
+    "true_pos_sentence_ids": [
+      278,
+      131,
+      149,
+      286,
+      287,
+      325,
+      340,
+      348,
+      358,
+      616
+    ],
+    "true_neg_sentence_ids": [],
+    "false_pos_sentence_ids": [
+      56,
+      60,
+      100,
+      101,
+      207,
+      267,
+      309,
+      337,
+      360,
+      412,
+      417
+    ],
+    "false_neg_sentence_ids": []
+  },
+  "new_fitness": {
+    "score": 0.8045454545454545,
+    "n_true_pos": 7,
+    "n_true_neg": 10,
+    "n_false_pos": 1,
+    "n_false_neg": 3,
+    "pos_score": 0.7,
+    "neg_score": 0.9090909090909091,
+    "true_pos": [
+      "{'ant': [CHO], 'cons': [speed]}",
+      "{'ant': [consumption], 'cons': [up-regulation]}",
+      "{'ant': [reduction], 'cons': [hyperpolarisation]}",
+      "{'ant': [coffee], 'cons': [alertness]}",
+      "{'ant': [Caffeine], 'cons': [performance]}",
+      "{'ant': [CAF], 'cons': [EMG]}",
+      "{'ant': [caffeine], 'cons': [latency]}"
+    ],
+    "true_neg": [
+      "{'ant': [study], 'cons': [association]}",
+      "{'ant': [study], 'cons': [effect]}",
+      "{'ant': [COGRTWrong], 'cons': [effect]}",
+      "{'ant': [interaction], 'cons': [placebo]}",
+      "{'ant': [antagonism], 'cons': [pattern]}",
+      "{'ant': [Overweight], 'cons': [risk]}",
+      "{'ant': [MR], 'cons': [morphometry]}",
+      "{'ant': [number], 'cons': [number]}",
+      "{'ant': [study], 'cons': [influence]}",
+      "{'ant': [study], 'cons': [effect]}"
+    ],
+    "false_pos": [
+      "{'ant': [Satisfaction], 'cons': [day]}"
+    ],
+    "false_neg": [
+      "{'ant': [SRE], 'cons': [decline]}",
+      "{'ant': [SRE], 'cons': [elevation]}",
+      "{'ant': [caffeine], 'cons': [learning]}"
+    ],
+    "true_pos_sentence_ids": [
+      278,
+      131,
+      149,
+      325,
+      340,
+      348,
+      616
+    ],
+    "true_neg_sentence_ids": [
+      56,
+      60,
+      100,
+      101,
+      207,
+      267,
+      309,
+      337,
+      360,
+      417
+    ],
+    "false_pos_sentence_ids": [
+      412
+    ],
+    "false_neg_sentence_ids": [
+      286,
+      287,
+      358
+    ]
+  },
+  "time_spent": 34.66
+}

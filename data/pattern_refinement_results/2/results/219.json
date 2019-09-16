@@ -1,0 +1,116 @@
+{
+  "pattern_id": 219,
+  "initial_fitness": {
+    "score": 0.5,
+    "n_true_pos": 4,
+    "n_true_neg": 0,
+    "n_false_pos": 13,
+    "n_false_neg": 0,
+    "pos_score": 1.0,
+    "neg_score": 0.0,
+    "true_pos": [
+      "{'ant': [Caffeine], 'cons': [activation]}",
+      "{'ant': [administration], 'cons': [number]}",
+      "{'ant': [Treatment], 'cons': [decrease]}",
+      "{'ant': [Treatment], 'cons': [number]}"
+    ],
+    "true_neg": [],
+    "false_pos": [
+      "{'ant': [effect], 'cons': [CRT]}",
+      "{'ant': [readministration], 'cons': [min]}",
+      "{'ant': [AMED], 'cons': [min]}",
+      "{'ant': [DSST], 'cons': [month]}",
+      "{'ant': [activation], 'cons': [supplementation]}",
+      "{'ant': [connectivity], 'cons': [supplementation]}",
+      "{'ant': [connectivity], 'cons': [supplementation]}",
+      "{'ant': [dose], 'cons': [Day]}",
+      "{'ant': [version], 'cons': [definition]}",
+      "{'ant': [SLT], 'cons': [%]}",
+      "{'ant': [Study], 'cons': [period]}",
+      "{'ant': [reasoning], 'cons': [caffeine]}",
+      "{'ant': [activation], 'cons': [step]}"
+    ],
+    "false_neg": [],
+    "true_pos_sentence_ids": [
+      340,
+      88,
+      146,
+      627
+    ],
+    "true_neg_sentence_ids": [],
+    "false_pos_sentence_ids": [
+      99,
+      112,
+      205,
+      445,
+      446,
+      447,
+      448,
+      479,
+      530,
+      726,
+      839,
+      857,
+      1093
+    ],
+    "false_neg_sentence_ids": []
+  },
+  "new_fitness": {
+    "score": 0.7692307692307692,
+    "n_true_pos": 4,
+    "n_true_neg": 7,
+    "n_false_pos": 6,
+    "n_false_neg": 0,
+    "pos_score": 1.0,
+    "neg_score": 0.5384615384615384,
+    "true_pos": [
+      "{'ant': [Caffeine], 'cons': [activation]}",
+      "{'ant': [administration], 'cons': [number]}",
+      "{'ant': [Treatment], 'cons': [decrease]}",
+      "{'ant': [Treatment], 'cons': [number]}"
+    ],
+    "true_neg": [
+      "{'ant': [effect], 'cons': [CRT]}",
+      "{'ant': [readministration], 'cons': [min]}",
+      "{'ant': [dose], 'cons': [Day]}",
+      "{'ant': [version], 'cons': [definition]}",
+      "{'ant': [SLT], 'cons': [%]}",
+      "{'ant': [Study], 'cons': [period]}",
+      "{'ant': [reasoning], 'cons': [caffeine]}"
+    ],
+    "false_pos": [
+      "{'ant': [AMED], 'cons': [min]}",
+      "{'ant': [DSST], 'cons': [month]}",
+      "{'ant': [activation], 'cons': [supplementation]}",
+      "{'ant': [connectivity], 'cons': [supplementation]}",
+      "{'ant': [connectivity], 'cons': [supplementation]}",
+      "{'ant': [activation], 'cons': [step]}"
+    ],
+    "false_neg": [],
+    "true_pos_sentence_ids": [
+      340,
+      88,
+      146,
+      627
+    ],
+    "true_neg_sentence_ids": [
+      99,
+      112,
+      479,
+      530,
+      726,
+      839,
+      857
+    ],
+    "false_pos_sentence_ids": [
+      205,
+      445,
+      446,
+      447,
+      448,
+      1093
+    ],
+    "false_neg_sentence_ids": []
+  },
+  "time_spent": 19.06
+}

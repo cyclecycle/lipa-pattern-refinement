@@ -5,8 +5,8 @@ import itertools
 from spacy.tokens import Token
 import spacy
 
-nlp = spacy.load('en_core_web_sm')
-# nlp = spacy.load('en_core_sci_sm')
+# nlp = spacy.load('en_core_web_sm')
+nlp = spacy.load('en_core_sci_sm')
 
 
 def init_vocab():
@@ -33,7 +33,7 @@ def pprint(*args):
 
 
 def unpack_json_field(item, field):
-    field_data = item.pop('data')
+    field_data = item.pop(field)
     field_data = json.loads(field_data)
     for k, v in field_data.items():
         item[k] = v
@@ -66,3 +66,22 @@ def unique_list(list_, key=lambda x: x):
     grouped = itertools.groupby(sorted_list, key)
     new_list = [list(group)[0] for key, group in grouped]
     return new_list
+
+
+def read_progress(path='data/progress.json'):
+    try:
+        with open(path) as f:
+            return json.load(f)
+    except:
+        return {
+            'pattern_ids_done': [],
+            'pattern_ids_inserted': [],
+            'pattern_ids_training_matches_mapped': [],
+            'training_matches_inserted': [],
+        }
+
+
+def write_progress(progress, path='data/progress.json'):
+    with open(path, 'w') as f:
+        json.dump(progress, f, indent=2)
+    return progress

@@ -5,6 +5,7 @@
     "n_true_pos": 5,
     "n_true_neg": 0,
     "n_false_pos": 21,
+    "n_false_neg": 0,
     "pos_score": 1.0,
     "neg_score": 0.0,
     "true_pos": [
@@ -38,6 +39,7 @@
       "{'ant': [game], 'cons': [patients]}",
       "{'ant': [growth], 'cons': [studies]}"
     ],
+    "false_neg": [],
     "true_pos_sentence_ids": [
       191,
       230,
@@ -68,13 +70,15 @@
       1017,
       1043,
       1068
-    ]
+    ],
+    "false_neg_sentence_ids": []
   },
   "new_fitness": {
     "score": 1.0,
     "n_true_pos": 5,
     "n_true_neg": 21,
     "n_false_pos": 0,
+    "n_false_neg": 0,
     "pos_score": 1.0,
     "neg_score": 1.0,
     "true_pos": [
@@ -108,6 +112,7 @@
       "{'ant': [growth], 'cons': [studies]}"
     ],
     "false_pos": [],
+    "false_neg": [],
     "true_pos_sentence_ids": [
       191,
       230,
@@ -138,7 +143,8 @@
       1043,
       1068
     ],
-    "false_pos_sentence_ids": []
+    "false_pos_sentence_ids": [],
+    "false_neg_sentence_ids": []
   },
-  "time_spent": 230.06
+  "time_spent": 270.89
 }

@@ -5,6 +5,7 @@
     "n_true_pos": 3,
     "n_true_neg": 0,
     "n_false_pos": 13,
+    "n_false_neg": 0,
     "pos_score": 1.0,
     "neg_score": 0.0,
     "true_pos": [
@@ -28,6 +29,7 @@
       "{'ant': [reasoning], 'cons': [caffeine]}",
       "{'ant': [activation], 'cons': [step]}"
     ],
+    "false_neg": [],
     "true_pos_sentence_ids": [
       88,
       147,
@@ -48,13 +50,15 @@
       729,
       860,
       1098
-    ]
+    ],
+    "false_neg_sentence_ids": []
   },
   "new_fitness": {
     "score": 0.9615384615384616,
     "n_true_pos": 3,
     "n_true_neg": 12,
     "n_false_pos": 1,
+    "n_false_neg": 0,
     "pos_score": 1.0,
     "neg_score": 0.9230769230769231,
     "true_pos": [
@@ -79,6 +83,7 @@
     "false_pos": [
       "{'ant': [activation], 'cons': [step]}"
     ],
+    "false_neg": [],
     "true_pos_sentence_ids": [
       88,
       147,
@@ -100,7 +105,8 @@
     ],
     "false_pos_sentence_ids": [
       1098
-    ]
+    ],
+    "false_neg_sentence_ids": []
   },
-  "time_spent": 320.76
+  "time_spent": 363.22
 }

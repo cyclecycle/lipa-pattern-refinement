@@ -1,0 +1,96 @@
+{
+  "pattern_id": 125,
+  "initial_fitness": {
+    "score": 0.5,
+    "n_true_pos": 3,
+    "n_true_neg": 0,
+    "n_false_pos": 9,
+    "n_false_neg": 0,
+    "pos_score": 1.0,
+    "neg_score": 0.0,
+    "true_pos": [
+      "{'ant': [production], 'cons': [changes]}",
+      "{'ant': [combination], 'cons': [signals]}",
+      "{'ant': [consumption], 'cons': [effects]}"
+    ],
+    "true_neg": [],
+    "false_pos": [
+      "{'ant': [influx], 'cons': [ca(2]}",
+      "{'ant': [paper], 'cons': [studies]}",
+      "{'ant': [evidence], 'cons': [effects]}",
+      "{'ant': [review], 'cons': [components]}",
+      "{'ant': [study], 'cons': [data]}",
+      "{'ant': [review], 'cons': [data]}",
+      "{'ant': [review], 'cons': [effects]}",
+      "{'ant': [article], 'cons': [processes]}",
+      "{'ant': [study], 'cons': [effects]}"
+    ],
+    "false_neg": [],
+    "true_pos_sentence_ids": [
+      164,
+      440,
+      462
+    ],
+    "true_neg_sentence_ids": [],
+    "false_pos_sentence_ids": [
+      144,
+      253,
+      321,
+      356,
+      400,
+      694,
+      734,
+      917,
+      1078
+    ],
+    "false_neg_sentence_ids": []
+  },
+  "new_fitness": {
+    "score": 0.8333333333333333,
+    "n_true_pos": 2,
+    "n_true_neg": 9,
+    "n_false_pos": 0,
+    "n_false_neg": 1,
+    "pos_score": 0.6666666666666666,
+    "neg_score": 1.0,
+    "true_pos": [
+      "{'ant': [production], 'cons': [changes]}",
+      "{'ant': [consumption], 'cons': [effects]}"
+    ],
+    "true_neg": [
+      "{'ant': [influx], 'cons': [ca(2]}",
+      "{'ant': [paper], 'cons': [studies]}",
+      "{'ant': [evidence], 'cons': [effects]}",
+      "{'ant': [review], 'cons': [components]}",
+      "{'ant': [study], 'cons': [data]}",
+      "{'ant': [review], 'cons': [data]}",
+      "{'ant': [review], 'cons': [effects]}",
+      "{'ant': [article], 'cons': [processes]}",
+      "{'ant': [study], 'cons': [effects]}"
+    ],
+    "false_pos": [],
+    "false_neg": [
+      "{'ant': [combination], 'cons': [signals]}"
+    ],
+    "true_pos_sentence_ids": [
+      164,
+      462
+    ],
+    "true_neg_sentence_ids": [
+      144,
+      253,
+      321,
+      356,
+      400,
+      694,
+      734,
+      917,
+      1078
+    ],
+    "false_pos_sentence_ids": [],
+    "false_neg_sentence_ids": [
+      440
+    ]
+  },
+  "time_spent": 270.87
+}

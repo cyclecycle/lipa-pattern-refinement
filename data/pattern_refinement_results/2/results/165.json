@@ -1,0 +1,94 @@
+{
+  "pattern_id": 165,
+  "initial_fitness": {
+    "score": 0.5,
+    "n_true_pos": 4,
+    "n_true_neg": 0,
+    "n_false_pos": 8,
+    "n_false_neg": 0,
+    "pos_score": 1.0,
+    "neg_score": 0.0,
+    "true_pos": [
+      "{'assoc_left': [risk], 'assoc_right': [performance]}",
+      "{'assoc_left': [quercetin], 'assoc_right': [health]}",
+      "{'assoc_left': [smoking], 'assoc_right': [decline]}",
+      "{'assoc_left': [abnormality], 'assoc_right': [delay]}"
+    ],
+    "true_neg": [],
+    "false_pos": [
+      "{'assoc_left': [L-theanine], 'assoc_right': [design]}",
+      "{'assoc_left': [combination], 'assoc_right': [design]}",
+      "{'assoc_left': [testing], 'assoc_right': [time-to-exhaustion]}",
+      "{'assoc_left': [procedure], 'assoc_right': [technique]}",
+      "{'assoc_left': [Caffeine], 'assoc_right': [water]}",
+      "{'assoc_left': [current], 'assoc_right': [50mM]}",
+      "{'assoc_left': [concentration], 'assoc_right': [50mM]}",
+      "{'assoc_left': [safety], 'assoc_right': [production]}"
+    ],
+    "false_neg": [],
+    "true_pos_sentence_ids": [
+      268,
+      171,
+      194,
+      303
+    ],
+    "true_neg_sentence_ids": [],
+    "false_pos_sentence_ids": [
+      36,
+      36,
+      95,
+      120,
+      122,
+      150,
+      150,
+      159
+    ],
+    "false_neg_sentence_ids": []
+  },
+  "new_fitness": {
+    "score": 1.0,
+    "n_true_pos": 4,
+    "n_true_neg": 8,
+    "n_false_pos": 0,
+    "n_false_neg": 0,
+    "pos_score": 1.0,
+    "neg_score": 1.0,
+    "true_pos": [
+      "{'assoc_left': [risk], 'assoc_right': [performance]}",
+      "{'assoc_left': [quercetin], 'assoc_right': [health]}",
+      "{'assoc_left': [smoking], 'assoc_right': [decline]}",
+      "{'assoc_left': [abnormality], 'assoc_right': [delay]}"
+    ],
+    "true_neg": [
+      "{'assoc_left': [L-theanine], 'assoc_right': [design]}",
+      "{'assoc_left': [combination], 'assoc_right': [design]}",
+      "{'assoc_left': [testing], 'assoc_right': [time-to-exhaustion]}",
+      "{'assoc_left': [procedure], 'assoc_right': [technique]}",
+      "{'assoc_left': [Caffeine], 'assoc_right': [water]}",
+      "{'assoc_left': [current], 'assoc_right': [50mM]}",
+      "{'assoc_left': [concentration], 'assoc_right': [50mM]}",
+      "{'assoc_left': [safety], 'assoc_right': [production]}"
+    ],
+    "false_pos": [],
+    "false_neg": [],
+    "true_pos_sentence_ids": [
+      268,
+      171,
+      194,
+      303
+    ],
+    "true_neg_sentence_ids": [
+      36,
+      36,
+      95,
+      120,
+      122,
+      150,
+      150,
+      159
+    ],
+    "false_pos_sentence_ids": [],
+    "false_neg_sentence_ids": []
+  },
+  "time_spent": 15.7
+}

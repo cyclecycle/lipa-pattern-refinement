@@ -1,0 +1,120 @@
+{
+  "pattern_id": 274,
+  "initial_fitness": {
+    "score": 0.5,
+    "n_true_pos": 8,
+    "n_true_neg": 0,
+    "n_false_pos": 10,
+    "n_false_neg": 0,
+    "pos_score": 1.0,
+    "neg_score": 0.0,
+    "true_pos": [
+      "{'ant': [ingestion], 'cons': [damages]}",
+      "{'ant': [readministration], 'cons': [symptoms]}",
+      "{'ant': [ED], 'cons': [measures]}",
+      "{'ant': [AMED], 'cons': [errors]}",
+      "{'ant': [dose], 'cons': [levels]}",
+      "{'ant': [addition], 'cons': [responses]}",
+      "{'ant': [DFS], 'cons': [improvements]}",
+      "{'ant': [alcohol], 'cons': [impairments]}"
+    ],
+    "true_neg": [],
+    "false_pos": [
+      "{'ant': [gravy], 'cons': [trends]}",
+      "{'ant': [total], 'cons': [sessions]}",
+      "{'ant': [study], 'cons': [effects]}",
+      "{'ant': [decline], 'cons': [participants]}",
+      "{'ant': [version], 'cons': [tablets]}",
+      "{'ant': [study], 'cons': [effects]}",
+      "{'ant': [Caffeine], 'cons': [effects]}",
+      "{'ant': [study], 'cons': [patients]}",
+      "{'ant': [research], 'cons': [differences]}",
+      "{'ant': [test], 'cons': [results]}"
+    ],
+    "false_neg": [],
+    "true_pos_sentence_ids": [
+      382,
+      112,
+      204,
+      205,
+      479,
+      643,
+      879,
+      895
+    ],
+    "true_neg_sentence_ids": [],
+    "false_pos_sentence_ids": [
+      228,
+      272,
+      320,
+      494,
+      530,
+      558,
+      568,
+      600,
+      941,
+      1020
+    ],
+    "false_neg_sentence_ids": []
+  },
+  "new_fitness": {
+    "score": 0.6875,
+    "n_true_pos": 3,
+    "n_true_neg": 10,
+    "n_false_pos": 0,
+    "n_false_neg": 5,
+    "pos_score": 0.375,
+    "neg_score": 1.0,
+    "true_pos": [
+      "{'ant': [ingestion], 'cons': [damages]}",
+      "{'ant': [addition], 'cons': [responses]}",
+      "{'ant': [alcohol], 'cons': [impairments]}"
+    ],
+    "true_neg": [
+      "{'ant': [gravy], 'cons': [trends]}",
+      "{'ant': [total], 'cons': [sessions]}",
+      "{'ant': [study], 'cons': [effects]}",
+      "{'ant': [decline], 'cons': [participants]}",
+      "{'ant': [version], 'cons': [tablets]}",
+      "{'ant': [study], 'cons': [effects]}",
+      "{'ant': [Caffeine], 'cons': [effects]}",
+      "{'ant': [study], 'cons': [patients]}",
+      "{'ant': [research], 'cons': [differences]}",
+      "{'ant': [test], 'cons': [results]}"
+    ],
+    "false_pos": [],
+    "false_neg": [
+      "{'ant': [readministration], 'cons': [symptoms]}",
+      "{'ant': [ED], 'cons': [measures]}",
+      "{'ant': [AMED], 'cons': [errors]}",
+      "{'ant': [dose], 'cons': [levels]}",
+      "{'ant': [DFS], 'cons': [improvements]}"
+    ],
+    "true_pos_sentence_ids": [
+      382,
+      643,
+      895
+    ],
+    "true_neg_sentence_ids": [
+      228,
+      272,
+      320,
+      494,
+      530,
+      558,
+      568,
+      600,
+      941,
+      1020
+    ],
+    "false_pos_sentence_ids": [],
+    "false_neg_sentence_ids": [
+      112,
+      204,
+      205,
+      479,
+      879
+    ]
+  },
+  "time_spent": 14.7
+}
